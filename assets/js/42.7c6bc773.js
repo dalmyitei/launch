@@ -1,3 +1,7 @@
+import Vue from 'vue';
+import VueCarousel from 'vue-carousel';
+
+Vue.use(VueCarousel);
 (window.webpackJsonp = window.webpackJsonp || []).push([[42], {
     463: function(t, e, n) {
         /*!
@@ -1949,7 +1953,7 @@
             }
             n(94);
             var u = s(a, o, [], !1, null, "453ad8cd", null);
-            u.options.__file = "src/Navigation.vue";
+            u.options.__file = "vue-carousel-master/src/Navigation.vue";
             var c = u.exports
               , l = function() {
                 var t, e = this, n = e.$createElement, r = e._self._c || n;
@@ -2065,7 +2069,7 @@
             }
               , h = (n(97),
             s(f, l, [], !1, null, "438fd353", null));
-            h.options.__file = "src/Pagination.vue";
+            h.options.__file = "vue-carousel-master/src/Navigation.vue";
             var d = h.exports
               , p = function() {
                 var t = this.$createElement;
@@ -2137,7 +2141,7 @@
             }
               , v = (n(99),
             s(g, p, [], !1, null, null, null));
-            v.options.__file = "src/Slide.vue";
+            v.options.__file = "vue-carousel-master/src/Navigation.vue";
             var y = v.exports;
             function m(t, e, n) {
                 return e in t ? Object.defineProperty(t, e, {
@@ -2655,7 +2659,7 @@
             }
               , C = (n(101),
             s(S, r, [], !1, null, null, null));
-            C.options.__file = "src/Carousel.vue";
+            C.options.__file = "vue-carousel-master/src/Navigation.vue";
             var w = C.exports;
             n.d(e, "Carousel", (function() {
                 return w
